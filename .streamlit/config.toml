@@ -1,0 +1,22 @@
+# Streamlit configuration for Health Insights Agent
+
+[server]
+# Set to false to prevent auto-reload on file changes in production
+fileWatcherType = "none"
+
+# Configure port if needed (default is 8501)
+port = 8501
+
+# Allow uploads up to 200MB
+maxUploadSize = 200
+
+[theme]
+# App theme configuration
+primaryColor = "#4CAF50"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[browser]
+# Automatically open browser on startup (set to false for production)
+gatherUsageStats = false
